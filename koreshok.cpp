@@ -5,6 +5,10 @@ int main(){
 	double x_1, x_2;
 	std::cout << "Input your first number: ";
 	std::cin >> a;
+	while(a==0.0){
+		std::cout << "Input your first right number: ";
+        	std::cin >> a;
+	}
 	std::cout << "Input your second number: ";
         std::cin >> b;
 	std::cout << "Input your third number: ";
